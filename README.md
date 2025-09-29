@@ -1,5 +1,3 @@
-CS576 Assignment 1 - Image Quantization
-
 Overview
 This project implements image quantization in RGB and YUV color spaces using two modes:
 Uniform Quantization (M = 1) – Equal-sized intervals for each channel.
@@ -60,4 +58,5 @@ Default image size is 352 × 288 pixels.
 Only raw .rgb files are supported.
 The GUI displays original and quantized images side by side.
 Terminal output includes MSE values for easy comparison.
+
 Batch mode helps analyze all possible combinations for N = 4, 6, or 8 without manually running each case.
